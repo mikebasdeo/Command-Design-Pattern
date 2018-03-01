@@ -1,7 +1,8 @@
 package com.mike;
 
 /*
-* First receiver object.*/
+* First receiver object.
+* Each command to be called will need its own class. (Downside of Command Pattern)*/
 
 public class Television implements ElectronicDevice{
 
